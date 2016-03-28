@@ -54,7 +54,7 @@ cacheSolve <- function(x, ...) {
 test<-makeCacheMatrix(matrix(10:7,2,2))
 test$get()
 test$getinverse()
-cachesolve(test)
+cacheSolve(test)
 
 
 ##This are the results under diferent definitions of the test matrix
